@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #FCE7F3;  /* baby pink */
+  color: #000000;  /* black text */
+}
+
+/* Navbar */
+.nav {
+  background-color: #F9A8D4;  /* slightly darker pink */
+  padding: 10px;
+}
+
+.nav a {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Page */
+.page {
+  padding: 20px;
+}
+
+/* Boxes */
+.box {
+  background-color: #FBCFE8;  /* light pink */
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Input */
+input {
+  padding: 6px;
+  margin-right: 8px;
+}
+
+/* Button */
+button {
+  padding: 6px 10px;
+  background-color: #EC4899;  /* pink button */
+  border: none;
+  color: white;
+}
