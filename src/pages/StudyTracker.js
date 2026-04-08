@@ -9,11 +9,21 @@ function StudyTracker() {
 
       <div className="box">
         <p>DAA Progress: {dsa}%</p>
-        <p>Web Programming Progress: 60%</p>
-        <p>MPMC Progress: 85%</p>
-        <p>TOC Progress: 60%</p>
-        <p>QS Progress: 95%</p>
-        <p>P&S Progress: 90%</p>
+        <hr />
+
+        <p>Web Programming: 50%</p>
+        <hr />
+
+        <p>MPMC: 55%</p>
+        <hr />
+
+        <p>TOC: 40%</p>
+        <hr />
+
+        <p>QS: 45%</p>
+        <hr />
+
+        <p>P&S: 50%</p>
       </div>
     </div>
   );
