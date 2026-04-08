@@ -1,13 +1,12 @@
 body {
   margin: 0;
   font-family: Arial;
-  background-color: #FCE7F3;  /* baby pink */
-  color: #000000;  /* black text */
+  background: linear-gradient(to right, #FCE7F3, #FBCFE8);
+  color: #1F2937;
 }
 
-/* Navbar */
 .nav {
-  background-color: #F9A8D4;  /* slightly darker pink */
+  background-color: #F9A8D4;
   padding: 10px;
 }
 
@@ -17,28 +16,33 @@ body {
   text-decoration: none;
 }
 
-/* Page */
 .page {
   padding: 20px;
 }
 
-/* Boxes */
 .box {
-  background-color: #FBCFE8;  /* light pink */
+  background-color: #FFFFFF;
   padding: 10px;
   margin-top: 10px;
+  border: 1px solid #F472B6; 
+  border-radius: 5px;
 }
 
-/* Input */
+hr {
+  border: none;
+  border-top: 1px solid #F472B6;
+  margin: 10px 0;
+}
+
 input {
   padding: 6px;
   margin-right: 8px;
+  border: 1px solid #ccc;
 }
 
-/* Button */
 button {
   padding: 6px 10px;
-  background-color: #EC4899;  /* pink button */
+  background-color: #EC4899;
   border: none;
   color: white;
 }
