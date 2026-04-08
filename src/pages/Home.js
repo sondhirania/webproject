@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function Home(props) {
   return (
     <div className="page">
@@ -7,7 +8,7 @@ function Home(props) {
 
       <div className="box">
         <p>Today:</p>
-        <p>- Study daa</p>
+        <p>- Study day</p>
         <p>- Study Web Programming</p>
         <p>- Complete Digital Assignments</p>
         <p>- Complete Project by 10th April</p>
@@ -15,5 +16,10 @@ function Home(props) {
     </div>
   );
 }
+
+/* Prop Validation */
+Home.propTypes = {
+  name: PropTypes.string
+};
 
 export default Home;
